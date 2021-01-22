@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>Rates</h2>
+  
+  <table>
+    <tr>
+      <th>Bank</th>
+    <th>Exchange rate USD</th>
+    <th>Exchange rate EUR</th>
+    </tr>
+    <tr>
+      <td>Converse</td>
+    <td id="USD"><%= USD %></td>
+    <td id="EUR"><%= EUR %></td>
+    </tr>
+  </table> <br> <br>
+
+  <form id="formId">
+    <select id="mySelect">
+      <option>USD</option>
+      <option>EUR</option>
+    </select>
+    <input type="text">
+  </form>  <br>  <br> 
+  <form id="to">
+    <select id="mySelect">
+      <option>AMD</option>
+    </select>
+    <input type="text"> <br> <br>
+    <button type="submit">Change</button>
+  </form> 
+  
+  <script type="text/javascript" src="todo.js"></script>
+</body>
+</html>

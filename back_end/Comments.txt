@@ -1,0 +1,8 @@
+Tvarkem bolor minusner@ vor chem hascrel anel
+
+1.React chem ogtagorcel(es vochte chem hascrel ayl chgitem uxaki)
+2.kayqs multilanguage chi
+3.2rd banki hamar chgreci qani vor im grac parsing@ im dur@ chekav, vstah em vor shat aveli hesht u lav tarberak ka
+
+
+Kod@ run anelu hamar greq nodemon app.js
